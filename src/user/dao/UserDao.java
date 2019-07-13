@@ -9,32 +9,17 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UserDao {
+    private ConnectionMaker connectionMaker;
 
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        UserDao dao = new UserDao();
-
-        User user = new User();
-        user.setId("whiteship");
-        user.setName("백기선");
-        user.setPassword("married");
-
-        dao.add(user);
-
-        System.out.println(user.getId() + " 등록 성공");
-
-        User user2 = dao.get(user.getId());
-        System.out.println(user2.getName());
-        System.out.println(user2.getPassword());
-
-        System.out.println(user2.getId() + " 조회 성공");
+    public UserDao(ConnectionMaker connectionMaker) {
+        // 상태를 관리하는 것도 아니니 한 번만 만들어
+        // 인스턴스 변수에 저장해두고 메서드에서 사용하게 한다
+        //connectionMaker = new ConnectionMaker();
+        this.connectionMaker = connectionMaker;
     }
 
     public void add(User user) throws ClassNotFoundException, SQLException {
-        //Class.forName("com.mysql.jdbc.Driver");
-        //Connection c = DriverManager.getConnection(
-        //        "jdbc:mysql://localhost/springbook", "root", "6249");
-        // 위의 코드를 밑의 getConnection() 메서드로 대체한다
-        Connection c = getConnection();
+        Connection c = connectionMaker.makeConnection();
 
         PreparedStatement ps = c.prepareStatement(
                 "insert into users(id, name, password) values(?,?,?)"
@@ -50,12 +35,7 @@ public class UserDao {
     }
 
     public User get(String id) throws ClassNotFoundException, SQLException {
-        //Class.forName("com.mysql.jdbc.Driver");
-        //Connection c = DriverManager.getConnection(
-        //        "jdbc:mysql://localhost/springbook", "root", "6249"
-        //);
-        // 위 코드를 getConnection() 메서드로 대체한다
-        Connection c = getConnection();
+        Connection c = connectionMaker.makeConnection();
 
         PreparedStatement ps = c.prepareStatement(
                 "select * from users where id = ?"
@@ -74,15 +54,6 @@ public class UserDao {
         c.close();
 
         return user;
-    }
-
-    private Connection getConnection() throws ClassNotFoundException, SQLException {
-        Class.forName("com.mysql.jdbc.Driver");
-        Connection c = DriverManager.getConnection(
-                "jdbc:mysql://localhost/springbook", "root", "6249"
-        );
-
-        return c;
     }
 
 }
