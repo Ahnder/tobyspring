@@ -1,8 +1,14 @@
 package user.dao;
 
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
 public class DaoFactory {
 
     // DConnectionMaker() 는 언제든지 다른걸로 유연하게 바꿀 수 있다
+    @Bean
     public ConnectionMaker connectionMaker() {
         return new DConnectionMaker();
     }
@@ -14,6 +20,7 @@ public class DaoFactory {
     }*/
 
     // 위의 userDao() 는 아래의 코드로 대체 가능
+    @Bean
     public UserDao userDao() {
         return new UserDao(connectionMaker());
     }
