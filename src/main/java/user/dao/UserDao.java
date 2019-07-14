@@ -11,10 +11,15 @@ import java.sql.SQLException;
 public class UserDao {
     private ConnectionMaker connectionMaker;
 
-    public UserDao(ConnectionMaker connectionMaker) {
+    /*public UserDao(ConnectionMaker connectionMaker) {
         // 상태를 관리하는 것도 아니니 한 번만 만들어
         // 인스턴스 변수에 저장해두고 메서드에서 사용하게 한다
         //connectionMaker = new ConnectionMaker();
+        this.connectionMaker = connectionMaker;
+    }
+    // 기존 생성자를 제거하고 수정자 메서드 DI 방식을 사용한 밑의 코드로 대체*/
+
+    public void setConnectionMaker(ConnectionMaker connectionMaker) {
         this.connectionMaker = connectionMaker;
     }
 
