@@ -2,29 +2,26 @@ package user.dao;
 
 import user.domain.User;
 
+import javax.sql.DataSource;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UserDao {
-    private ConnectionMaker connectionMaker;
+    private DataSource dataSource;
 
-    /*public UserDao(ConnectionMaker connectionMaker) {
-        // 상태를 관리하는 것도 아니니 한 번만 만들어
-        // 인스턴스 변수에 저장해두고 메서드에서 사용하게 한다
-        //connectionMaker = new ConnectionMaker();
-        this.connectionMaker = connectionMaker;
-    }
-    // 기존 생성자를 제거하고 수정자 메서드 DI 방식을 사용한 밑의 코드로 대체*/
+    // 기존에 DB커넥션을 생성하주던 ConnectionMaker를 대신해서 자바의 인터페이스인
+    // DataSource를 사용
+    // DataSource의 getConnection()은 SQLException만 던진다
+    // DataSource로 대체하므로 수정자 메서드 또한 DataSource로 바꿔준다
 
-    public void setConnectionMaker(ConnectionMaker connectionMaker) {
-        this.connectionMaker = connectionMaker;
+    public void setDataSource(DataSource dataSource) {
+        this.dataSource = dataSource;
     }
 
-    public void add(User user) throws ClassNotFoundException, SQLException {
-        Connection c = connectionMaker.makeConnection();
+    public void add(User user) throws SQLException {
+        Connection c = dataSource.getConnection();
 
         PreparedStatement ps = c.prepareStatement(
                 "insert into users(id, name, password) values(?,?,?)"
@@ -39,8 +36,8 @@ public class UserDao {
         c.close();
     }
 
-    public User get(String id) throws ClassNotFoundException, SQLException {
-        Connection c = connectionMaker.makeConnection();
+    public User get(String id) throws SQLException {
+        Connection c = dataSource.getConnection();
 
         PreparedStatement ps = c.prepareStatement(
                 "select * from users where id = ?"
