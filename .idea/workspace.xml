@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="937717e7-6696-4b15-848a-10a209e546e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springbooktoby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbooktoby.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" afterDir="false" />
@@ -15,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -30,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="176">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,21 +45,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="1606">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="352">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#334#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#680#692#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +109,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -101,8 +133,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/learningtest/junit/JUnitTest" />
+        <option value="$PROJECT_DIR$/src/learningtest/juint/JUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/learningtest/junit/JUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/junit.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/junit.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest3.java" />
       </list>
     </option>
   </component>
@@ -159,25 +199,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
@@ -206,6 +228,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\A\Documents\workspace_intellij\springbooktoby\src\main\resources" />
+      <recent name="C:\Users\A\Documents\workspace_intellij\springbooktoby\src\main\java\learningtest\junit" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\A\Documents\workspace_intellij\springbooktoby\src\main\resources" />
     </key>
@@ -222,43 +248,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.user.dao in springbooktoby">
-    <configuration name="UserDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="user.dao.UserDao" />
+  <component name="RunManager" selected="JUnit.learningtest.junit in springbooktoby">
+    <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbooktoby" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="user.dao.*" />
+          <option name="PATTERN" value="learningtest.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learningtest.junit" />
+      <option name="MAIN_CLASS_NAME" value="learningtest.junit.JUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="user.dao.UserDaoTest" />
+    <configuration name="JUnitTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbooktoby" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="user.dao.*" />
+          <option name="PATTERN" value="learningtest.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbooktoby" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="user.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="user.dao" />
-      <option name="MAIN_CLASS_NAME" value="user.dao.UserDaoTest" />
+      <option name="PACKAGE_NAME" value="learningtest.junit" />
+      <option name="MAIN_CLASS_NAME" value="learningtest.junit.JUnitTest2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,6 +295,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="learningtest.junit in springbooktoby" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbooktoby" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learningtest.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learningtest.junit" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="user.dao in springbooktoby" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbooktoby" />
       <extension name="coverage">
@@ -296,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.learningtest.junit in springbooktoby" />
+        <item itemvalue="JUnit.JUnitTest2" />
+        <item itemvalue="JUnit.JUnitTest" />
         <item itemvalue="JUnit.user.dao in springbooktoby" />
         <item itemvalue="JUnit.UserDaoTest.addAndGet" />
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="Application.UserDaoTest" />
-        <item itemvalue="Application.UserDao" />
       </list>
     </recent_temporary>
   </component>
@@ -318,35 +347,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 18m 20s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 31m 53s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 33m 13s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 33m 29s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 36m 51s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 41m 52s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 43m 44s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 19h 56m 21s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 19h 58m 57s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
     <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 20h 02m 24s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTest - 2019.07.18 at 21h 18m 20s.xml">
+      <configuration name="JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTest2 - 2019.07.18 at 21h 28m 32s.xml">
+      <configuration name="JUnitTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="learningtest_junit_in_springbooktoby - 2019.07.18 at 21h 34m 14s.xml">
+      <configuration name="learningtest.junit in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="learningtest_junit_in_springbooktoby - 2019.07.18 at 22h 43m 06s.xml">
+      <configuration name="learningtest.junit in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="learningtest_junit_in_springbooktoby - 2019.07.18 at 22h 45m 53s.xml">
+      <configuration name="learningtest.junit in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="learningtest_junit_in_springbooktoby - 2019.07.18 at 22h 47m 32s.xml">
+      <configuration name="learningtest.junit in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="learningtest_junit_in_springbooktoby - 2019.07.18 at 22h 50m 17s.xml">
+      <configuration name="learningtest.junit in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="learningtest_junit_in_springbooktoby - 2019.07.18 at 22h 57m 45s.xml">
+      <configuration name="learningtest.junit in springbooktoby" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -383,18 +412,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springbook$UserDaoTest.ic" NAME="UserDaoTest Coverage Results" MODIFIED="1563277418384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>user.dao.*</FILTER>
@@ -426,16 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -445,10 +452,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="176">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learningtest/junit/JUnitTest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnitTest.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnittest1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnitTest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="42" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learningtest/junit/JUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/junit.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="1" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/junit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#692#0" expanded="true" />
           </folding>
         </state>
       </provider>
