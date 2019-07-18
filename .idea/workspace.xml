@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="937717e7-6696-4b15-848a-10a209e546e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbooktoby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbooktoby.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/domain/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,16 +24,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/user/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="-100">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="242">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,20 +45,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="110">
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="318">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test_applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -95,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -167,7 +175,20 @@
               <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -178,11 +199,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\A\Documents\workspace_intellij\springbooktoby\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,39 +318,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest_addAndGet - 2019.07.16 at 21h 49m 39s.xml">
-      <configuration name="UserDaoTest.addAndGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.16 at 21h 50m 04s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 18m 20s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.16 at 21h 50m 27s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 31m 53s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.16 at 21h 59m 41s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 33m 13s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.16 at 22h 16m 49s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 33m 29s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.16 at 22h 25m 44s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 36m 51s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.17 at 21h 14m 31s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 41m 52s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.17 at 21h 18m 31s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 17h 43m 44s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 16h 05m 22s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 19h 56m 21s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 16h 08m 41s.xml">
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 19h 58m 57s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.18 at 20h 02m 24s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="14" width="1307" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31792375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -387,15 +414,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/DaoFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/user/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="-100">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test_applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="110">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,15 +438,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="110">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="242">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
