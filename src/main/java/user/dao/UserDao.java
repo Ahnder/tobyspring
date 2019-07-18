@@ -12,11 +12,6 @@ import java.sql.SQLException;
 public class UserDao {
     private DataSource dataSource;
 
-    // 기존에 DB커넥션을 생성하주던 ConnectionMaker를 대신해서 자바의 인터페이스인
-    // DataSource를 사용
-    // DataSource의 getConnection()은 SQLException만 던진다
-    // DataSource로 대체하므로 수정자 메서드 또한 DataSource로 바꿔준다
-
     public void setDataSource(DataSource dataSource) {
         this.dataSource = dataSource;
     }
@@ -47,7 +42,6 @@ public class UserDao {
 
         ResultSet rs = ps.executeQuery();
 
-        // <- 2.3.3-3) testGetUserFailure() 테스트 코드를 성공시키기 위해 get() 코드를 수정
         User user = null; // User는 null상태로 초기화
         // id를 조건으로 한 쿼리의 결과가 있으면 User 오브젝트를 만들고 값을 넣어준다
         if (rs.next()) {

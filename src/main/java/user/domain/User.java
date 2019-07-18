@@ -5,7 +5,6 @@ public class User {
     String name;
     String password;
 
-    // 2.3.3 getCount() 테스트를 위해 생성자 추가
     public User(String id, String name, String password) {
         this.id = id;
         this.name = name;
