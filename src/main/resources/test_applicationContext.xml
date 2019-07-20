@@ -4,6 +4,15 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
             http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
+    <bean id="userDao" class="user.dao.UserDao">
+        <property name="dataSource" ref="dataSource" />
+        <property name="jdbcContext" ref="jdbcContext" />
+    </bean>
+
+    <bean id="jdbcContext" class="user.dao.JdbcContext">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
     <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver" />
         <property name="url" value="jdbc:mysql://localhost/springbooktestdb?useSSL=false" />
@@ -11,8 +20,5 @@
         <property name="password" value="6249" />
     </bean>
 
-    <bean id="userDao" class="user.dao.UserDao">
-        <property name="dataSource" ref="dataSource" />
-    </bean>
 
 </beans>
