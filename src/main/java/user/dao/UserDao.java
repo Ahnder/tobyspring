@@ -1,12 +1,10 @@
 package user.dao;
 
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import user.domain.User;
 
 import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -26,33 +24,20 @@ public class UserDao {
     }
 
     public User get(String id) throws SQLException {
-        Connection c = dataSource.getConnection();
 
-        PreparedStatement ps = c.prepareStatement(
-                "select * from users where id = ?"
-        );
-        ps.setString(1, id);
+        return this.jdbcTemplate.queryForObject("select * from users where id = ?",
+                new Object[]{id},
+                new RowMapper<User>() {
+                    public User mapRow(ResultSet rs, int rowNum)
+                            throws SQLException {
+                        User user = new User();
+                        user.setId(rs.getString("id"));
+                        user.setName(rs.getString("name"));
+                        user.setPassword(rs.getString("password"));
 
-        ResultSet rs = ps.executeQuery();
-
-        User user = null; // User는 null상태로 초기화
-        // id를 조건으로 한 쿼리의 결과가 있으면 User 오브젝트를 만들고 값을 넣어준다
-        if (rs.next()) {
-            user = new User();
-            user.setId(rs.getString("id"));
-            user.setName(rs.getString("name"));
-            user.setPassword(rs.getString("password"));
-        }
-        // ->
-        rs.close();
-        ps.close();
-        c.close();
-
-        // 결과가 없으면 User는 null 상태 그대로 일 것이다
-        // 이를 확인해서 예외를 던져준다
-        if (user == null) throw new EmptyResultDataAccessException(1);
-
-        return user;
+                        return user;
+                    }
+                });
     }
 
     // deleteAll() 메서드 : 테이블의 모든 레코드를 삭제
