@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -33,7 +34,7 @@ public class UserDaoTest {
     @Before
     public void setUp() {
 
-        this.dao = this.context.getBean("userDao", UserDao.class);
+        this.dao = this.context.getBean("userDao", UserDaoJdbc.class);
 
         this.user1 = new User("gyumee", "박성철", "park");
         this.user2 = new User("leegw", "이길원", "lee");
@@ -84,6 +85,15 @@ public class UserDaoTest {
         assertThat(dao.getCount(), is(0));
 
         dao.get("unknown_id");
+    }
+
+    // 중복된 키를 등록했을시 예외 발생 학습 테스트 
+    @Test(expected = DuplicateKeyException.class)
+    public void testDuplicatekey() {
+        dao. deleteAll();
+
+        dao.add(user1);
+        dao.add(user1);
     }
 
     // 현재 등록되어 있는 모든 사용자 정보를 가져오는 getAll() 메서드 테스트

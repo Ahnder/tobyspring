@@ -4,10 +4,15 @@
     <list default="true" id="937717e7-6696-4b15-848a-10a209e546e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/explain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explain.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDao$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,26 +31,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="242">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#490#878#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#491#879#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            <state relative-caret-position="219">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +57,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/explain.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -118,9 +133,11 @@
         <option value="$PROJECT_DIR$/src/main/java/learningtest/template/LineCallback.java" />
         <option value="$PROJECT_DIR$/src/main/java/learningtest/template/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/explain.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/user/dao/Userdao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" />
       </list>
     </option>
   </component>
@@ -215,8 +232,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,24 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.21 at 21h 38m 23s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.21 at 21h 51m 04s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.21 at 21h 54m 04s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.21 at 21h 55m 15s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 20h 28m 53s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 20h 32m 32s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 21h 52m 12s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
@@ -375,12 +374,30 @@
     <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 22h 36m 58s.xml">
       <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 22h 50m 13s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 18h 25m 41s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 18h 27m 23s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 21h 35m 38s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 21h 42m 37s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 21h 44m 53s.xml">
+      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="14" width="1341" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21704814" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22178374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -550,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/JdbcContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -571,6 +578,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/explain.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#879#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test_applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -578,24 +614,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#490#878#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explain.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
