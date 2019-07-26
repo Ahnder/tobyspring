@@ -22,6 +22,18 @@ public class User {
         // 파라미터가 없는 디폴트 생성자 추가
     }
 
+    // User의 레벨 업그레이드 작업용 메서드
+    public void upgradeLevel() {
+        Level nextLevel = this.level.nextLevel();
+
+        if (nextLevel == null) {
+            throw new IllegalArgumentException(this.level + "은 업그레이드가 불가능합니다");
+
+        } else {
+            this.level = nextLevel;
+        }
+    }
+
     public String getId() {
         return id;
     }

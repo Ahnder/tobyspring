@@ -24,27 +24,31 @@ public class UserService {
     // 사용자 레벨 업그레이드 메서드
     public void upgradeLevels() {
         List<User> users = userDao.getAll();
+
         for (User user : users) {
-            Boolean changed = null; // 레벨의 변화가 있는지를 확인하는 단순 플래그
-            // BASIC 레벨 업그레이드 작업
-            if (user.getLevel() == (Level.BASIC) && (user.getNumoflogin() >= 50)) {
-                user.setLevel(Level.SILVER);
-                changed = true;
-            // SILVER 레벨 업그레이드 작업
-            } else if (user.getLevel() == (Level.SILVER) && (user.getNumofrecommend() >= 30)) {
-                user.setLevel(Level.GOLD);
-                changed = true;
-            // GOLD 레벨 이상은 현재 존재하지 않는다.
-            } else if (user.getLevel() == Level.GOLD) {
-                changed = false; // GOLD 레벨은 최상위 레벨이기 때문에 변경이 일어나지 않는다.
-
-            } else {
-                // 일치하는 조건이 없으면 변경 없음
-                changed = false;
-            }
-
-            // 변경이 있는 경우 (changed = true) update() 메서드를 호출해서 레벨 업그레이드
-            if (changed) userDao.update(user);
+            if (canUpgradeLevel(user)) callUpgradeLevel(user);
         }
+    }
+
+    // 업그레이드 가능 확인 메서드
+    private boolean canUpgradeLevel(User user) {
+        Level currentLevel = user.getLevel();
+
+        switch (currentLevel) {
+            case BASIC: return (user.getNumoflogin() >= 50);
+            case SILVER: return (user.getNumofrecommend() >= 30);
+            case GOLD: return false;
+            // default:
+            // 현재 로직에서 다룰 수 없는 레벨이 주어지면 예외를 발생시킨다.
+            // 새로운 레벨이 추가되고 로직을 수정하지 않으면 에러가 나서 확인할 수 있다.
+            default: throw new IllegalArgumentException("Unknown Level: " +
+                    currentLevel);
+        }
+    }
+
+    // 레벨 업그레이드 작업 메서드
+    private void callUpgradeLevel(User user) {
+        user.upgradeLevel();
+        userDao.update(user);
     }
 }

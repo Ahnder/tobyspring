@@ -4,12 +4,12 @@
     <list default="true" id="937717e7-6696-4b15-848a-10a209e546e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/explain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explain.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/domain/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/domain/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/domain/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/domain/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/service/UserService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
