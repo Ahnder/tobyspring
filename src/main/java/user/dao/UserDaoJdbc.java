@@ -2,6 +2,7 @@ package user.dao;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import user.domain.Level;
 import user.domain.User;
 
 import javax.sql.DataSource;
@@ -24,20 +25,34 @@ public class UserDaoJdbc implements UserDao {
                     user.setId(rs.getString("id"));
                     user.setName(rs.getString("name"));
                     user.setPassword(rs.getString("password"));
+                    user.setLevel(Level.valueOf(rs.getInt("level")));
+                    user.setNumoflogin(rs.getInt("numoflogin"));
+                    user.setNumofrecommend(rs.getInt("numofrecommend"));
 
                     return user;
                 }
             }; // userMapper end
 
-    public void add(final User user) {
-        this.jdbcTemplate.update("insert into users(id, name, password) value(?, ?, ?)",
-                user.getId(), user.getName(), user.getPassword());
+    public void add(User user) {
+        this.jdbcTemplate.update("insert into users(id, name, password, level, numoflogin, numofrecommend) " +
+                        "value(?, ?, ?, ?, ?, ?)",
+                user.getId(), user.getName(), user.getPassword(),
+                user.getLevel().intValue(), user.getNumoflogin(), user.getNumofrecommend());
     }
 
     public User get(String id) {
 
         return this.jdbcTemplate.queryForObject("select * from users where id = ?",
                 new Object[]{id}, this.userMapper);
+    }
+
+    public void update(User user) {
+        this.jdbcTemplate.update(
+                "update users set name = ?, password = ?, level = ?, numoflogin = ?," +
+                        "numofrecommend = ? where id = ? ", user.getName(), user.getPassword(),
+                user.getLevel().intValue(), user.getNumoflogin(), user.getNumofrecommend(),
+                user.getId()
+        );
     }
 
     // deleteAll() 메서드 : 테이블의 모든 레코드를 삭제

@@ -1,14 +1,21 @@
 package user.domain;
 
 public class User {
-    String id;
-    String name;
-    String password;
+    private String id;
+    private String name;
+    private String password;
+    private Level level;
+    private int numoflogin; // 로그인 수
+    private int numofrecommend; // 추천 수
 
-    public User(String id, String name, String password) {
+    public User(String id, String name, String password, Level level,
+                int numoflogin, int numofrecommend) {
         this.id = id;
         this.name = name;
         this.password = password;
+        this.level = level;
+        this.numoflogin = numoflogin;
+        this.numofrecommend = numofrecommend;
     }
 
     public User() {
@@ -37,6 +44,30 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Level getLevel() {
+        return level;
+    }
+
+    public void setLevel(Level level) {
+        this.level = level;
+    }
+
+    public int getNumoflogin() {
+        return numoflogin;
+    }
+
+    public void setNumoflogin(int numoflogin) {
+        this.numoflogin = numoflogin;
+    }
+
+    public int getNumofrecommend() {
+        return numofrecommend;
+    }
+
+    public void setNumofrecommend(int numofrecommend) {
+        this.numofrecommend = numofrecommend;
     }
 
 }

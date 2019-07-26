@@ -4,18 +4,17 @@
     <list default="true" id="937717e7-6696-4b15-848a-10a209e546e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/explain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explain.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springbooktoby.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/domain/User.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,118 +27,18 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#491#879#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/explain.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test_applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/user/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/user/dao/SimpleConnectionMaker.java" />
-        <option value="$PROJECT_DIR$/src/user/dao/DConnectionMaker.java" />
-        <option value="$PROJECT_DIR$/src/user/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/user/dao/ConnectionMaker.java" />
-        <option value="$PROJECT_DIR$/src/user/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/user/dao/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/DConnectionMaker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/user/domain/User.java" />
-        <option value="$PROJECT_DIR$/learningtest/junit/JUnitTest" />
-        <option value="$PROJECT_DIR$/src/learningtest/juint/JUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/learningtest/junit/JUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/junit.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/junit.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/StatementStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/DeleteAllStatement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/AddStatement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/JdbcContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/template/numbers.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/template/BufferedReaderCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/template/CalcSumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/template/LineCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learningtest/template/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" />
-        <option value="$PROJECT_DIR$/explain.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/Userdao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -154,87 +53,9 @@
     <option name="width" value="1341" />
     <option name="height" value="738" />
   </component>
+  <component name="ProjectId" id="1OV4T5QiTwjaL2LDAV7PAzh8xvj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learningtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbooktoby" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -265,22 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.user.dao in springbooktoby">
-    <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbooktoby" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learningtest.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learningtest.junit" />
-      <option name="MAIN_CLASS_NAME" value="learningtest.junit.JUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserDaoTest">
     <configuration name="JUnitTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbooktoby" />
       <extension name="coverage">
@@ -291,6 +97,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="learningtest.junit" />
       <option name="MAIN_CLASS_NAME" value="learningtest.junit.JUnitTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbooktoby" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user.dao" />
+      <option name="MAIN_CLASS_NAME" value="user.dao.UserDaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="JUnit.user.dao in springbooktoby" />
         <item itemvalue="JUnit.learningtest.template in springbooktoby" />
         <item itemvalue="JUnit.learningtest.junit in springbooktoby" />
         <item itemvalue="JUnit.JUnitTest2" />
-        <item itemvalue="JUnit.JUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -361,269 +182,23 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 21h 52m 12s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 22h 07m 00s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 22h 14m 33s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 22h 36m 58s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.22 at 22h 50m 13s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 18h 25m 41s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 18h 27m 23s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 21h 35m 38s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 21h 42m 37s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_dao_in_springbooktoby - 2019.07.23 at 21h 44m 53s.xml">
-      <configuration name="user.dao in springbooktoby" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="6" y="14" width="1341" height="738" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22178374" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959448" visible="true" weight="0.29188254" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004055" side_tool="true" weight="0.34887737" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.328152" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.328152" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32927817" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springbook$UserDaoTest.ic" NAME="UserDaoTest Coverage Results" MODIFIED="1563277418384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>user.dao.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/ConnectionMaker.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/DConnectionMaker.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/SimpleConnectionMaker.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/DaoFactory.java" />
-    <entry file="file://$PROJECT_DIR$/learningtest/junit/JUnitTest" />
-    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnitTest.class" />
-    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnittest1" />
-    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnitTest" />
-    <entry file="file://$PROJECT_DIR$/src/learningtest/juint/JUnitTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/learningtest/junit/JUnitTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/junit.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/junit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/junit/JUnitTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#680#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/StatementStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/DeleteAllStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/AddStatement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/template/numbers.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/template/BufferedReaderCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/template/calcMultiply.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/template/LineCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/template/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#473#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#691#893#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learningtest/template/CalcSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/JdbcContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="80" selection-start-line="53" selection-start-column="80" selection-end-line="53" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explain.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#491#879#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test_applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
