@@ -4,16 +4,12 @@
     <list default="true" id="937717e7-6696-4b15-848a-10a209e546e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/explain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explain.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springbooktoby.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test_applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test_applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/domain/User.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,22 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
-    <configuration name="JUnitTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbooktoby" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learningtest.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learningtest.junit" />
-      <option name="MAIN_CLASS_NAME" value="learningtest.junit.JUnitTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbooktoby" />
       <extension name="coverage">
@@ -112,6 +93,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="user.dao" />
       <option name="MAIN_CLASS_NAME" value="user.dao.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbooktoby" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user.service" />
+      <option name="MAIN_CLASS_NAME" value="user.service.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="JUnit.user.dao in springbooktoby" />
         <item itemvalue="JUnit.learningtest.template in springbooktoby" />
         <item itemvalue="JUnit.learningtest.junit in springbooktoby" />
-        <item itemvalue="JUnit.JUnitTest2" />
       </list>
     </recent_temporary>
   </component>

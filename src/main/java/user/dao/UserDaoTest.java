@@ -23,10 +23,10 @@ import static org.junit.Assert.assertThat;
 
 public class UserDaoTest {
     @Autowired
-    private ApplicationContext context;
+    ApplicationContext context;
 
     @Autowired
-    private UserDao dao;
+    UserDao dao;
 
     private User user1;
     private User user2;

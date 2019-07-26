@@ -43,7 +43,7 @@ public class UserDaoJdbc implements UserDao {
     public User get(String id) {
 
         return this.jdbcTemplate.queryForObject("select * from users where id = ?",
-                new Object[]{id}, this.userMapper);
+                new Object[] {id}, this.userMapper);
     }
 
     public void update(User user) {
